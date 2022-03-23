@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>NIKE</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel='ICON' href="img/favicon.png" />
+
+</head>
+
+<body>
+    <div class="content-width">
+		<div class="naslov"> NIKE LOGO SHOWCASE </div>
+	  
+        <div class="slideshow">
+            <!-- slide show -->
+            <div class="slideshow-items">
+                <div class="item">
+                    <div class="item-image-container">
+                        <img class="item-image" width="2000px" height="2000px" src="img/nike.png">
+                    </div>
+
+                    <div class="item-header">
+                        <span class="vertical-part"><b style="transition-delay: 0.015s;">P</b></span>
+                        <span class="vertical-part"><b style="transition-delay: 0.03s;">N</b></span>
+                        <span class="vertical-part"><b style="transition-delay: 0.045s;">G</b></span>
+                    </div>
+
+                    <div class="item-description">
+                        <span class="vertical-part"><b style="transition-delay: 0.007s;">Nike</b></span>
+                        <span class="vertical-part"><b style="transition-delay: 0.014s;">logo</b></span>
+                        <span class="vertical-part"><b style="transition-delay: 0.021s;">slika</b></span>
+                        <span class="vertical-part"><b style="transition-delay: 0.028s;">png</b></span>
+                        <span class="vertical-part"><b style="transition-delay: 0.037s;">.</b></span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-image-container bejzer">
+                        <canvas class="item-image" id="myCanvas" width="2000px" height="1800px">
+                        </canvas>
+                        <script>
+                            var c = document.getElementById("myCanvas");
+                            var ctx = c.getContext("2d");
+                            ctx.beginPath();
+                            ctx.moveTo(353, 393);
+                            ctx.bezierCurveTo(586, 436, 1044, 198, 1905, 18);
+                            ctx.bezierCurveTo(617, 530, 348, 777, 114, 644);
+                            ctx.bezierCurveTo(-126, 464, 183, 123, 290, 8);
+                            ctx.bezierCurveTo(181, 197, 202, 359, 353, 393);
+                            ctx.closePath();
+                            ctx.fillStyle = "#000000";
+                            ctx.fill();
+                            ctx.stroke();
+                        </script>
+                    </div>
+
+                    <div class="item-header">
+                        <span class="vertical-part"><b style="transition-delay: 0.015s;">B</b></span>
+                        <span class="vertical-part"><b style="transition-delay: 0.03s;">E</b></span>
+                        <span class="vertical-part"><b style="transition-delay: 0.045s;">I</b></span>
+                        <span class="vertical-part"><b style="transition-delay: 0.06s;">Z</b></span>
+                        <span class="vertical-part"><b style="transition-delay: 0.075s;">E</b></span>
+                        <span class="vertical-part"><b style="transition-delay: 0.09s;">R</b></span>
+                    </div>
+
+                    <div class="item-description">
+                        <span class="vertical-part"><b style="transition-delay: 0.007s;">Nike</b></span>
+                        <span class="vertical-part"><b style="transition-delay: 0.014s;">logo</b></span>
+                        <span class="vertical-part"><b style="transition-delay: 0.021s;">narejen</b></span>
+                        <span class="vertical-part"><b style="transition-delay: 0.028s;">z</b></span>
+                        <span class="vertical-part"><b style="transition-delay: 0.035s;">beizerjevo</b></span>
+                        <span class="vertical-part"><b style="transition-delay: 0.042s;">krivuljo</b></span>
+                        <span class="vertical-part"><b style="transition-delay: 0.049s;">.</b></span>
+
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-image-container">
+                        <svg class="item-image" id="myCanvas" width="2000px" height="1800px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2392 848" width="420" height="150">
+							<path d="m342,0c0,0,-86,144,-86,275c0,140,103,217,233,217c146,0,242,-44,497,-111l1406,-371c0,0,-1192,517,-1762,753c-113,
+									47,-219,85,-355,85c-150,0,-275,-90,-275,-240c0,-114,37,-199,99,-304c99,-168,243,-304,243,-304z" /></svg>
+                    </div>
+
+                    <div class="item-header">
+                        <span class="vertical-part"><b style="transition-delay: 0.015s;">S</b></span>
+                        <span class="vertical-part"><b style="transition-delay: 0.03s;">V</b></span>
+                        <span class="vertical-part"><b style="transition-delay: 0.045s;">G</b></span>
+
+                    </div>
+
+                    <div class="item-description">
+                        <span class="vertical-part"><b style="transition-delay: 0.767s;">Nike</b></span>
+                        <span class="vertical-part"><b style="transition-delay: 0.774s;">logo</b></span>
+                        <span class="vertical-part"><b style="transition-delay: 0.781s;">v</b></span>
+                        <span class="vertical-part"><b style="transition-delay: 0.788s;">formatu</b></span>
+                        <span class="vertical-part"><b style="transition-delay: 0.795s;">SVG</b></span>
+                        <span class="vertical-part"><b style="transition-delay: 0.811s;">.</b></span>
+                    </div>
+                </div>
+            </div>
+            <div class="controls">
+                <ul>
+                    <li class="control" data-index="0"></li>
+                    <li class="control" data-index="1"></li>
+                    <li class="control active" data-index="2"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
